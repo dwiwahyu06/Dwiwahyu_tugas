@@ -3,8 +3,8 @@ import { Search } from "lucide-react";
 import Brg from './Component/Produk';
 import { ShoppingCart } from "lucide-react";
 import { AlignRight } from "lucide-react";
-import Header from './Component/Hearder'; // Pastikan ini sesuai dengan nama file
-import Footer from './Component/Footer'; // Import Footer
+import Header from './Component/Hearder'; 
+import Footer from './Component/Footer'; 
 
 export default function App() { 
     const produk = [
@@ -34,7 +34,7 @@ export default function App() {
 
     return (
         <div>
-            <Header /> {/* Tambahkan Header di sini */}
+            <Header />
             <div>
                 <Search size={25} />
                 <input
@@ -44,7 +44,7 @@ export default function App() {
                     onChange={(e) => setSearch(e.target.value)}
                 />
                 <ShoppingCart size={50} className="keranjang" />
-                <span>{cartCount}</span> {/* Display cart count */}
+                <span>{cartCount}</span>
                 <AlignRight size={50} className="garis3" />
             </div>
             <div className="perulangan">
@@ -57,7 +57,7 @@ export default function App() {
                         stok={produkk.stok}
                         harga={produkk.harga}
                         kategori={produkk.kategori}
-                        onAddToCart={handleAddToCart} // Pass the function to the Brg component
+                        onAddToCart={handleAddToCart} 
                     />
                 ))}
             </div>

@@ -1,4 +1,3 @@
-// Header.jsx
 const Header = () => {
     return (
         <header>

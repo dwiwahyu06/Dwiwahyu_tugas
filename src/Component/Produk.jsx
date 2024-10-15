@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MessageCircleMore, Info, Heart } from "lucide-react";
 
-function Brg({ foto, nama, deskripsi, stok,harga,kategori, onAddToCart }) { // Tambahkan onAddToCart di sini
+function Brg({ foto, nama, deskripsi, stok,harga,kategori, onAddToCart }) {
     const [showPopup, setShowPopup] = useState(false);
     const [isLiked, setIsLiked] = useState(false);
     const [comment, setComment] = useState('');
