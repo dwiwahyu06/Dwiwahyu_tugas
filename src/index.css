@@ -1,0 +1,123 @@
+:root{
+  background-color: #D6C0B3;
+}
+
+
+header {
+  background-color: #AB886D;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.jimmy {
+  color: #333;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+footer {
+  background-color: #AB886D;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #e0e0e0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+.kotak {
+  border: 1px solid #665252;
+  background-color:white;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  height:50pc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.kotakbuy {
+  width: 180px;
+  height: 30px;
+  background-color: #EDDFE0;
+  margin-left: 120px;
+  border-radius: 30px;
+  text-align: center;
+}
+.love {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.love.liked {
+  color: red;
+}
+.popup-foto {
+  width: 80%;
+}
+.popup {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  padding: 10px;
+  background-color: #f9e6e6;
+  border: 1px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  z-index: 1;
+}
+
+
+.garis3 {
+  margin-left:90px;
+}
+.keranjang {
+   margin-left: 90%;
+}
+.info {
+  margin: 40px;
+
+}
+.love {
+  margin: 40px;
+}
+.coment {
+  margin: 40px;
+}
+
+.foto {
+  width: 50%;
+
+}
+input[type="text"] {
+  width: calc(153pc - 40px);
+  padding: 8px 10px;
+  height: 3pc;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.3s ea
+}
+input[type="text"]:focus {
+  border-color: #007bff;
+}
+.perulangan {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
